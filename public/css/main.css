@@ -7986,9 +7986,31 @@ form .btn {
 /* ==========================================================================
    Home 
    ========================================================================== */
+.header {
+  *zoom: 1;
+}
+.header:before,
+.header:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.header:after {
+  clear: both;
+}
+.header:before,
+.header:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.header:after {
+  clear: both;
+}
 #logo {
   display: block;
-  margin-top: 20px;
+  width: 175px;
+  margin-top: 10px;
 }
 #banner {
   display: block;
@@ -7997,11 +8019,19 @@ form .btn {
 }
 #home h1 {
   font-size: 30px;
-  margin: 30px 0;
   text-align: center;
 }
-#home h2 {
+#home .bio {
+  float: right;
+  width: 194px;
+  font-size: 12px;
+}
+#home .bio h2 {
   font-size: 21px;
+}
+#home .bio h3 {
+  color: #666;
+  font-size: 14px;
 }
 #home h4 {
   font-size: 17px;
@@ -8011,7 +8041,7 @@ form .btn {
   color: #666;
 }
 #home section {
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 #home section .content {
   color: #666;
