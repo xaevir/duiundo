@@ -1,36 +1,41 @@
 
 
-<form method='post' action='#' class="form-horizontal">
+<form class="form-horizontal">
   <div class="header">
     <h2>Get A Free Consultation</h2>
     <div style="color: #666">Enter your details below and one of our representatives will contact you.</div>
   </div>
   <div class="divider"></div>
   <div class="body">
-    <div class="control-group">
-      <label class="control-label" for="name">Name&#42;</label>
-      <div class="controls">
-        <input type="text" class="span12" id="name" placeholder="Name">
+
+    <div class="form-group">
+      <label class="col-sm-2 control-label" for="name">Name&#42;</label>
+      <div class="col-sm-10">
+        <input type="text" class="form-control" id="name" name="name" placeholder="Name">
       </div>
     </div>
 
-    <div class="control-group">
-      <label class="control-label" for="phone">Phone&#42;</label>
-      <div class="controls">
-        <input type="text" class="span12" id="phone" placeholder="Phone">
+    <div class="form-group">
+      <label class="col-sm-2 control-label" for="phone">Phone&#42;</label>
+      <div class="col-sm-10">
+        <input type="text" class="form-control" id="phone" name="phone" placeholder="Phone">
       </div>
     </div>
 
-    <div class="control-group">
-      <label class="control-label" for="email">Email&#42;</label>
-      <div class="controls">
-        <input type="text" class="span12" id="email" placeholder="Email">
+    <div class="form-group">
+      <label class="col-sm-2 control-label" for="email">Email&#42;</label>
+      <div class="col-sm-10">
+        <input type="text" class="form-control" id="email" name="email" placeholder="Email">
       </div>
     </div>
   </div>
 
-    <button class="btn btn-warning btn-large" type="submit">Contact Me</button>
-    <div class="divider"></div>
+  <div class="form-group">
+    <div class="col-sm-offset-2 col-sm-10">
+      <button class="btn btn-warning btn-lg" type="submit">Contact Me</button>
+    </div>
+  </div>
+  <div class="divider"></div>
   <div class="footer">
     We will never sell your email address to any 3rd party or send you nasty spam. Promise.
   </div>

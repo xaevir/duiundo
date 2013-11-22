@@ -7,7 +7,7 @@ require.config({
     'Backbone.Validation': 'libs/backbone.validation',
     text: 'libs/text',
     templates: '../templates',
-    transition: 'libs/bootstrap/js/bootstrap-transition',
+    transition: 'libs/bootstrap/js/transition',
     utilities: 'libs/utilities'
   },
 /*

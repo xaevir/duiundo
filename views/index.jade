@@ -2,26 +2,33 @@ extends layout
 
 block content
   #home
-    .container-narrow
+    .container
       .header
         img#logo(src="/img/logo.png")
-        h1 D.U.I. Expert Witness and Consultant
-      h3 
-      .row-fluid
-        .span6
+        .divider
+        .banner 
+          img.img-responsive(src="/img/banner.jpg")
+          h1 D.U.I. Expert Witness and Consultant 
+      h3
+      .row
+        .col-md-6
           section
-            img(src="/img/profile-pic.png", style="border-right: 1px solid #000")
             .bio
-              h2 Stephen F. Daniels
-              h3 Dui expert witness and consultant
+              img#profilePic(src="/img/profile.png")
+              .info
+                h2 Stephen F. Daniels
+                p.
+                  I have consulted on thousands of DUI cases.
+                  I am a nationwide expert witness, consultant and speaker.
+                p.
+                  <b>DUIundoConsultants@tampabay.rr.com</b>
+                p.
+                  <b>727.647.4258</b>
+          section.services
+            .header
+              h3 About My Services 
               p.
-                I have consulted on thousands of DUI cases.
-                I am a nationwide expert witness/consultant/speaker.
-              p.
-                DUIundoConsultants@tampabay.rr.com 
-              p.
-                www.duiundo.com
-          section
+                This is an overview of what I offer. My consultancy can help you in many ways that you will want to discuss.
             h4 <span class="circle">1</span> Consultantion services include:
             .content
               ul
@@ -31,13 +38,16 @@ block content
                 li Review of video evidence, driving pattern, FST’s.
                 li Review of Police Policy and Procudres.
                 li Public Record Requests.
-          section 
             h4 <span class="circle">2</span> Expert Witness Tesimony for:
-            .content(style="margin-top: 5px")
-              p  DMV Hearings, Motions and Trial testimony
-          section
+            .content
+              ul
+                li DMV Hearings, Motions and Trial testimony
             h4 <span class="circle">3</span> Additional Trial Services:
-            .content(style="margin-top: 5px")
-              p Power Point Presntations for Trial
-        .span6
+            .content
+              ul 
+                li Power Point Presntations for Trial
+        .col-md-6
+          .arrow
+            span.arrow-container
+              span.glyphicon.glyphicon-arrow-down
           .lead-gen
